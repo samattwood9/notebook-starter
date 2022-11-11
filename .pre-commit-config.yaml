@@ -3,7 +3,7 @@ repos:
     rev: v1.14.0  # CURRENT_TAG/COMMIT_HASH
     hooks:
     - id: jupytext
-      args: [--sync]
+      args: [--sync, --pipe, black]
 -   repo: https://github.com/psf/black
     rev: 22.6.0
     hooks:
