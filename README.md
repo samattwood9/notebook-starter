@@ -1,12 +1,14 @@
 # Notebook starter
 
+A lightweight template to help teams collaborate with Jupyter Notebooks in VS Code. 
+
 ## Getting started
 
 1. Use the template to create a new repository.
 2. Open in VS Code (at this time it must be VS Code Insiders).
 3. Install the recommended exentsions when prompted.
 4. Open a terminal and run: `pip install -r requirements.txt`.
-5. Create `.py` files as needed (right click the files and select `Open as a Jupyter Notebook` to open in a notebook format).
+5. Create `.py` files as needed, then right click a file and select `Open as a Jupyter Notebook` to open in a notebook format.
 
 ## Troubleshooting
 
