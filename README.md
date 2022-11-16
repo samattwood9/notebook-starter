@@ -13,6 +13,10 @@ A lightweight template to help teams collaborate with Jupyter Notebooks in VS Co
 5. Run: `pre-commit install`.
 6. Create `.py` files as needed, then right click a file and select `Open as a Jupyter Notebook` to open in a notebook format.
 
+## Continuous integration
+
+The template is ready for continuous integration out of the box. All that is needed is to sign-in, using GitHub, here: https://pre-commit.ci/.
+
 ## Notes
 
 - This template is affected by the following issue: https://github.com/notebookPowerTools/vscode-jupytext/issues/9. The issue means that the same `.py` file cannot be opened as a notebook twice in succession. The issue can be worked around by alternating between two `.py` files.
