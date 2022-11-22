@@ -17,7 +17,11 @@ A lightweight template to help teams collaborate with Jupyter Notebooks in VS Co
 
 The template is ready for continuous integration out of the box. All that is needed is to sign-in, using GitHub, here: https://pre-commit.ci/.
 
-## Notes
+## FAQ
 
-- This template is affected by the following issue: https://github.com/notebookPowerTools/vscode-jupytext/issues/9. The issue means that the same `.py` file cannot be opened as a notebook twice in succession. The issue can be worked around by alternating between two `.py` files.
-- If black makes a change to a file, an error message will be displayed. This is intentional - see the answer from the author here: https://stackoverflow.com/questions/58398995/black-as-pre-commit-hook-always-fails-my-commits. Review the applied changes and commit again if you are happy.
+- Why use this template?
+  - This template helps when you want to use notebooks with version control (Git). `.ipynb` files store and update metadata that makes version control hard. This template solves this problem using extenstions that let you work with `.py` scripts through a notebook interface. It also use `pre-commit` to enforce consistent styling of these scripts.
+- Why can't I open my `.py` file as a notebook (more than once)?
+  - This template is affected by the following issue: https://github.com/notebookPowerTools/vscode-jupytext/issues/9. The issue means that the same `.py` file cannot be opened as a notebook twice in succession. The issue can be worked around by alternating between two `.py` files.
+- Why do I get an error message when trying to make a commit?
+  - If black makes a change to a file, an error message will be displayed. This is intentional - see the answer from the author here: https://stackoverflow.com/questions/58398995/black-as-pre-commit-hook-always-fails-my-commits. Review the applied changes and commit again if you are happy.
